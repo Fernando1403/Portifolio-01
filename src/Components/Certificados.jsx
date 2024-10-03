@@ -6,15 +6,15 @@ import cert3 from '../certificados/design.png'
 function Certificados() {
     return ( 
         <>
-            <section class="container" id="container">
-                <h2 class="titulo" style={{marginBottom:"40px"}}>MEUS <span>CERTIFICADOS</span>.</h2>
-	            <div class="slider-wrapper">
-		            <div class="slider">
+            <section className="container" id="container">
+                <h2 className="titulo" style={{marginBottom:"40px"}}>MEUS <span>CERTIFICADOS</span>.</h2>
+	            <div className="slider-wrapper">
+		            <div className="slider">
                         <img id="slide-1" src={cert1} alt="" />
                         <img id="slide-2" src={cert2} alt="" />
                         <img id="slide-3" src={cert3} alt="" />
                     </div>
-                    <div class="slider-nav">
+                    <div className="slider-nav">
                         <a href="#slide-1"></a>
                         <a href="#slide-2"></a>
                         <a href="#slide-3"></a>

@@ -9,6 +9,7 @@ import PageNotFound from './pages/PageNotFound.jsx'
 import PageCertificados from './pages/PageCertificados.jsx'
 import PageEspecialidades from './pages/PageEspecialidades.jsx'
 import Home from './pages/Home.jsx'
+import PageContato from './pages/PageContato.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       {path: 'sobre', element: <PageSobre/>},
       {path: 'projetos', element: <PageProjetos/>},
       {path: 'certificados', element: <PageCertificados/>},
+      {path: 'contato', element: <PageContato/>},
       {path: '*', element: <PageNotFound/>},
     ]
   }

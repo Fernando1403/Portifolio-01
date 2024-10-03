@@ -56,7 +56,7 @@ function Header() {
           </nav>
 
           <div className="btn-contato">
-            <a href="https://web.whatsapp.com/send?phone=5511942149398" target="_blank">
+            <a href="/contato">
               <button className=''>Contato</button>
             </a>
           </div>
@@ -76,7 +76,7 @@ function Header() {
                     <li><a href="/sobre" className="text-left">Sobre</a></li>
                     <li><a href="/projetos" className="text-left">Projetos</a></li>
                     <li><a href="/container" className="text-left">Certificados</a></li>
-                    <li><a href="https://whatsapp.com/send?phone=5511942149398" target="_blank" className="text-left">Contate-me</a></li>
+                    <li><a href="/contato" className="text-left">Contate-me</a></li>
                 </ul>
             </nav>
           </div>
