@@ -15,16 +15,16 @@ Este é o meu portfólio pessoal, onde mostro alguns dos projetos que desenvolvi
    git clone https://github.com/seu-usuario/portifolio.git
 
 2. Acesse o diretório do projeto:
-
+   ```bash
    cd Portifolio01
 
 3. Instale as dependências:
-
-  npm install
+   ```bash
+     npm install
 
 4. Inicie e o projeto:
-
-  npm run dev
+   ```bash
+     npm run dev
 
 ##Contato
 
