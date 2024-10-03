@@ -26,7 +26,7 @@ Este é o meu portfólio pessoal, onde mostro alguns dos projetos que desenvolvi
    ```bash
      npm run dev
 
-##Contato
+## Contato
 
 - Email: fergalexandre@gmail.com
 - Linkedin: https://www.linkedin.com/in/fernandogalexandre/
