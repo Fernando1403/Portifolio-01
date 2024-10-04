@@ -7,7 +7,7 @@ function Sobre() {
                 <div className="max-w-[1280px] mx-auto">
                     <div className="flex items-center gap-[60px]">
                         <div className="img-sobre">
-                        <img src={foto} alt="" className="relative w-full h-auto ml-[-40px] rounded-[7px]" />
+                        <img src={foto} alt="" className="relative w-full h-auto ml-[40px] rounded-[7px]" />
                         </div>
                         <div className="txt-sobre text-white ml-[60px]">
                             <h2 className="text-[40px] leading-[40px]">

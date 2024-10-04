@@ -15,12 +15,12 @@ function Header() {
 
     const openMenu = () => {
       menu.classList.add('abrir-menu');
-      overlay.classList.remove('hidden'); // Exibe o overlay
+      overlay.classList.remove('hidden');
     };
 
     const closeMenu = () => {
       menu.classList.remove('abrir-menu');
-      overlay.classList.add('hidden'); // Esconde o overlay
+      overlay.classList.add('hidden');
     };
 
     btnMenu.addEventListener('click', openMenu);
